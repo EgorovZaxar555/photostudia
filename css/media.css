@@ -1,0 +1,120 @@
+@media (max-width:820px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:720px) {
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: block;
+        float: left;
+        margin: 10px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        gap: 0;
+        width: 70%;
+        height: 100vh;
+        background-color: #55152bc5;
+        flex-direction: column;
+        transition: .3s;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-link {
+        text-align: end;
+    }
+}
+
+@media (min-width:1300px) and (max-width:20000px) {
+    .head-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 180px;
+        background: #FFECF3;
+    }
+
+    .sertificat_foto {
+        width: 150px;
+    }
+}
+
+
+@media (min-width:1400px) and (max-width:20000px) {
+    .sertificat_foto {
+        width: 200px;
+    }
+
+    .gallery-list {
+        width: 70%;
+    }
+
+    .gallery-item {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width:1500px) and (max-width:20000px) {
+    .gallery-list {
+        width: 70%;
+    }
+
+    .gallery-item {
+        width: 300px;
+        height: 300px;
+    }
+
+    .forma input {
+        width: 400px;
+        height: 60px;
+        outline: none;
+        border: 1px solid rgb(106, 106, 106);
+        margin: 20px auto;
+    }
+
+    form button {
+        border: none;
+        background-color: #894559;
+        color: #FFECF3;
+        width: 250px;
+        height: 60px;
+        transition: .2s;
+        font-size: 20px;
+    }
+}
